@@ -44,4 +44,15 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    public void oddOrEven() {
+        if (number / 2 == 0) {
+            System.out.println("My favorite number, " + number + ", is an even number!");
+        } else {
+            System.out.println("My favorite number, " + number + ", is an odd number!");
+        }
+    }
+
+
+    public String goodMorning() { return "Good morning! I hope you slept well last night, let's have a good day!"; }
 }
